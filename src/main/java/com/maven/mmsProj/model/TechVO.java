@@ -1,8 +1,7 @@
 package com.maven.mmsProj.model;
 
-//TechVO, EnergyVO ..?
-public class TechVO {
 
+public class TechVO {
 
     private String techId;
     private String division;

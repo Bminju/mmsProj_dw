@@ -1,0 +1,9 @@
+// insert profile
+{
+  "genId": "basicGenerate",
+  "tradeDay": "20230201",
+  "regDate": "20230201",
+  "regrId": "userId",
+  "bidRegDate": "20230201",
+  "bidUserId": "bidUserId"
+}

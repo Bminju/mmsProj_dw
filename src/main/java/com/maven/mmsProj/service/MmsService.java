@@ -1,5 +1,6 @@
 package com.maven.mmsProj.service;
 
+import com.maven.mmsProj.model.DwVO;
 import com.maven.mmsProj.model.TechVO;
 
 import java.util.List;
@@ -7,7 +8,12 @@ import java.util.Map;
 
 public interface MmsService {
 
-    public List<TechVO> techSelect(String genName) throws Exception;
+    public void insertProfile(DwVO dw) throws Exception;
 
-    public Map<String,String> infoSelect(String genName) throws Exception;
+    public void insertFact(DwVO dw) throws Exception;
+
+    public List<DwVO> selectProfile(DwVO dw) throws Exception;
+
+    public List<DwVO> selectFact(String bidId) throws Exception;
+
 }
